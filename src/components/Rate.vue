@@ -33,9 +33,10 @@
 
       <v-expand-transition>
         <div v-if="showFeedback" class="pa-3">
-          <v-typography variant="subtitle1" class="mb-3">
+
+          <v-card-text>
             We're sorry to hear your experience wasn't great. Please let us know how we can improve:
-          </v-typography>
+          </v-card-text>
           <v-textarea
             v-model="feedback"
             label="Your Feedback"
@@ -45,12 +46,43 @@
             rows="2"
             placeholder="Write your feedback here..."
           />
-          <v-btn color="primary" class="mt-4" @click="submitFeedback">
-            Submit Feedback
-          </v-btn>
+          <v-card-actions>
+            <v-btn
+              text="Submit Feedback"
+              block
+              border
+              @click="submitFeedback"
+            ></v-btn>
+          </v-card-actions>
         </div>
       </v-expand-transition>
     </v-card>
+
+
+    <div>
+      <!-- Dialog -->
+      <v-dialog v-model="showPopup" max-width="400">
+        <v-card class="mx-auto" max-width="400" elevation="2">
+        <v-img
+              src="/logo-transparent.webp"
+              class="logo"
+              cover
+          ></v-img>
+          <v-card-title class="text-h6 text-center">
+            Thank you!
+          </v-card-title>
+          <v-card-text>
+            Your feedback has been sent directly to our manager! We value your opinion.
+          </v-card-text>
+          <v-card-actions class="justify-center">
+            <v-btn color="primary" text @click="acceptSubmit">
+              Close
+            </v-btn>
+          </v-card-actions>
+        </v-card>
+      </v-dialog>
+    </div>
+
   </v-container>
 </template>
 
@@ -62,7 +94,8 @@ export default {
       rating: 0, // Track the user's selected rating
       maps: "https://maps.app.goo.gl/Y5zMaVWpu5QaL9Vw7",
       showFeedback: false,
-      feedback: ""
+      feedback: "",
+      showPopup: false
     };
   },
   methods: {
@@ -75,7 +108,11 @@ export default {
       }
     },
     submitFeedback() {
-
+      this.showPopup = true
+    },
+    acceptSubmit() {
+      this.showFeedback = false
+      this.showPopup = false
     }
   },
 };
