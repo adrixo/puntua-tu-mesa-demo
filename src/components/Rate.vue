@@ -1,5 +1,5 @@
 <template>
-  <v-container class="d-flex justify-center align-center" style="height: 100vh;">
+  <v-container class="d-flex justify-center align-center" style="height: 70vh;">
     <v-card class="mx-auto" max-width="400" elevation="2">
       <v-img
       height="200px"
