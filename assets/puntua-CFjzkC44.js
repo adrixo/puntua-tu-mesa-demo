@@ -1,0 +1,1 @@
+import{_ as t}from"./Rate-BqWrfdpg.js";import{_}from"./AppHeader-ChuG6kJs.js";import{c as a,a as n,F as p,o as c}from"./index-CGGk2h7K.js";const f={__name:"puntua",setup(r){return(s,m)=>{const o=_,e=t;return c(),a(p,null,[n(o),n(e)],64)}}};export{f as default};
