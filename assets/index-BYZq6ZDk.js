@@ -1,0 +1,1 @@
+import{_}from"./Rate-C0zoWpov.js";import{_ as t}from"./AppHeader-BeieJ7i5.js";import{c as a,a as e,F as c,o as p}from"./index-BsM8lFmJ.js";const f={__name:"index",setup(r){return(s,m)=>{const n=t,o=_;return p(),a(c,null,[e(n),e(o)],64)}}};export{f as default};
