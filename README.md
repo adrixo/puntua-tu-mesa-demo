@@ -12,30 +12,30 @@ Rate Your Table helps restaurants turn positive customer experiences into Google
 
 Attracting new customers & increase restaurant visibility while giving managers real-time insights to improve service quality and customer satisfaction.
 
-<table style="border: 1px solid #fefefe; border-collapse: collapse; border-radius: 8px; overflow: hidden;">
+<table style="width: 100%; border: 1px solid #fefefe; border-collapse: collapse; border-radius: 8px; overflow: hidden;">
   <tr>
-    <td style="vertical-align: top; border: 1px solid #fefefe; padding: 10px;">
+    <td style="vertical-align: top; border: 1px solid #fefefe; padding: 10px; width: 73%;">
       <strong>How it works:</strong><br><br>
       1. Scan a QR code on the bill.<br>
       2. Positive rating (4–5 ⭐) → redirect to Google Maps.<br>
       3. Negative rating (1–3 ⭐) → feedback goes straight to managers.
     </td>
-    <td style="vertical-align: top; border: 1px solid #fefefe; padding: 10px;">
+    <td style="vertical-align: top; border: 1px solid #fefefe; padding: 10px; width: 30%;">
       <img src="photos/complain.png" width="200" alt="Complain">
     </td>
   </tr>
 </table>
 
-<table style="border: 1px solid #fefefe; border-collapse: collapse; border-radius: 8px; overflow: hidden;">
+<table style="width: 100%; border: 1px solid #fefefe; border-collapse: collapse; border-radius: 8px; overflow: hidden;">
   <tr>
-    <td style="vertical-align: top; border: 1px solid #fefefe; padding: 10px;">
+    <td style="vertical-align: top; border: 1px solid #fefefe; padding: 10px; width: 73%;">
       <strong>Manager Backoffice:</strong><br><br>
       - Track avoided negative reviews<br>
       - Monitor rating improvements on Google Maps<br>
       - Analyze detailed stats, feedback, and staff performance
     </td>
-    <td style="vertical-align: top; border: 1px solid #fefefe; padding: 10px;">
-      <img src="photos/backoffice.png" width="200" alt="Backoffice">
+    <td style="vertical-align: top; border: 1px solid #fefefe; padding: 10px; width: 30%;">
+      <img src="./photos/backoffice.png" width="200" alt="Backoffice">
     </td>
   </tr>
 </table>
